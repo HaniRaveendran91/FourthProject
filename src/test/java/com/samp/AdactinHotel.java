@@ -50,6 +50,15 @@ public class AdactinHotel {
 		System.out.println(string);
 		
 		driver.quit();
+		driver.findElement(By.id("username")).sendKeys("prahathees");
+		driver.findElement(By.id("password")).sendKeys("12345abcd");
+		driver.findElement(By.id("login")).click();
+		
+		
+
+		
+		
+		 
 		
 		
 		
