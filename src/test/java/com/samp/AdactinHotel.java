@@ -50,6 +50,18 @@ public class AdactinHotel {
 		System.out.println(string);
 		
 		driver.quit();
+		driver.findElement(By.id("first_name")).sendKeys(frstName);
+		driver.findElement(By.id("last_name")).sendKeys(lastName);
+		driver.findElement(By.id("address")).sendKeys(address);
+		driver.findElement(By.id("cc_num")).sendKeys(creditCrdNo);
+		driver.findElement(By.id("cc_type")).sendKeys(cardType);
+		driver.findElement(By.id("cc_exp_month")).sendKeys(month);
+		driver.findElement(By.id("cc_exp_year")).sendKeys(year);
+		driver.findElement(By.id("cc_cvv")).sendKeys(cvv);
+		
+		
+		
+		 
 		
 		
 		
